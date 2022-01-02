@@ -1,0 +1,75 @@
+body {
+	font-size: 18px;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+	font-family: 'Quicksand', sans-serif;
+	color: #303841;
+	background-color: #eeeeee;
+}
+
+.index_html {
+	font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+  color: #d72323;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+	border-radius: 8px;
+  box-shadow: 0 2px 4px 0 #3a4750, 0 3px 10px 0 #3a4750;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 2px 2px 5px #3a4750;
+}
+
+fieldset {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+  margin-right: auto;
+	color: #303841;
+	border-radius: 8px;
+	width: 80%;
+	border: 2px #d72323 dotted;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 11px;
+}
+
+.button {
+	background-color: #d72323;
+	color: #eeeeee;
+	border: none;
+	padding: 10px 24px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px 0 #3a4750, 0 3px 10px 0 #3a4750;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.ipsum_result {
+	text-align: justify;
+  text-justify: inter-word;
+}
+
+.back_button {
+	margin-top: 20px;
+	text-align: center;
+}
